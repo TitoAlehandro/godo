@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block all_title %}О проекте{% endblock %}
+
+{% block about %}
+<div>
+  <br><br><br><br><br><br>
+{% for row in news %}
+    <b> &emsp;&emsp;&emsp;  {{row.date}} </b> - {{row.inf}}
+    <br><br><br>
+{% endfor %}
+</div>
+    <div align="center">
+        <img width="30%" height="30%" alt="Просмотреть" src="/media/images/sky.jpg"></a>
+    </div>
+</div>
+{% endblock %}
