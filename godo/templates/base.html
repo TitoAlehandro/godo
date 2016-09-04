@@ -19,6 +19,35 @@
       $('#price').mask('99999.99');
 	  $("#eyescript").mask("~9.99 ~9.99 999");
 	  });</script> 
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter39314020 = new Ya.Metrika({
+                    id:39314020,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/39314020" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 
 
 	<!--Load the AJAX API-->
@@ -72,17 +101,35 @@
 			  <div align="rigth">
 				&nbsp;&nbsp;&nbsp;&nbsp;
 				<a href="/">
-				  <font size=6>
+				  <font size=6 color="black">
 					<b>
 					  GO and DO
 					</b>
 				  </font>
 				</a>
+				 <font size=3>					
+					  +7 (499) 394 02 48, +7 (925) 041 0321	- персональный консультант по тренировкам и питанию.				
+				  </font>
+				<a href="https://www.instagram.com/goanddocompany/">
+					<img width="2%" height="2%" src="/static/godo/images/insta.png" alt="insta"/>
+				</a>
+                                 <a href="https://m.vk.com/goanddo">
+					<img width="2%" height="2%" src="/static/godo/images/vk.png" alt="vk.com"/>
+				</a>
+				<a href="https://www.facebook.com/goanddoit/">
+				     	<img width="2%" height="2%" src="/static/godo/images/fb.png" alt="fb.com"/>
+				<a href="https://ok.ru/group/53322108239958">
+					<img width="2%" height="2%" src="/static/godo/images/ok.png" alt="ok.ru"/>
+
+				</a>
+						
+
+
 				
 			  </div>
 			</td>
            
-			<td>
+			<!--td>
 			  <div align="right">
 				{% if user.is_active %}		  
 				<a href="/accounts/login/">
@@ -108,7 +155,7 @@
 			  {% endif %}	  		  
 			</div>
 			
-		  </td>		  
+		<!--  </td>	  -->
 		</tr>
 	  </table>
 	  {% endblock %}
@@ -123,7 +170,7 @@
 				<td>
 			  <div align="left">			
 				&nbsp;&nbsp;
-				<font size=3> <a href="/news/">
+				<font size=3> <a href="/">
 					Наша Цель<br>&nbsp;&nbsp;
 
 					/о компании/
@@ -132,21 +179,21 @@
 			</td>
 			<td>
 			  <div align="left">			
-				<font size=3> <a href="/articles/">
+				<font size=3> <a href="/">
 					Мероприятия
 				</a></font>
 			  </div>  
 			</td>
 			<td>
 			  <div align="left">			
-				<font size=3> <a href="/blog/">
+				<font size=3> <a href="/">
 					Достижения
 				</a></font>
 			  </div>  
 			</td>
 			<td>
 			  <div align="left">
-				<font size=3> <a href="/about">
+				<font size=3> <a href="/">
 					Новости
 				</a></font>
 			  </div>

@@ -1,5 +1,6 @@
 body {
-    font-family: Arial, Helvetica, sans-serif; /* Рубленый шрифт текста */
+    #font-family: Arial, Helvetica, sans-serif; /* Рубленый шрифт текста */
+    font-family: "Comic Sans MS", cursive, sans-serif;
     margin: 0; /* Обнуляем отступы браузера */
 	#background-color: #DDDDDD;
 }
@@ -104,7 +105,8 @@ button {
 	#color: #DDDDDD;
     width: 100%; 
 	height: 70px;
-	background: #E7D4D4;
+	background: #CBCBCB;
+        font-family: "Comic Sans MS", cursive, sans-serif;
     #background: #FFE4C4;
     #padding-right: 20px; 
 	
@@ -133,6 +135,8 @@ button {
 	#-webkit-border-radius:6px; 
 	#-moz-border-radius:5px; 
 	#-khtml-border-radius:10px;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+
 }
 div.hr {
 	height: 65px;
@@ -147,6 +151,9 @@ div.hr hr {
 }
 .main-table { 
 	width: 100%;	
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        color: #000000
+
 }
 .login-table { 
 	width: 100%;
